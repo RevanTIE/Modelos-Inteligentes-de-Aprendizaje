@@ -1,3 +1,2 @@
 # Modelos-Inteligentes-de-Aprendizaje
-Almacenar las tareas de la materia de Modelos Inteligentes de Aprendizaje, 
-correspondientes al segundo semestre de la Maestría en Ciencias.
+Técnicas de reconocimiento de imagenes, a partir de Análisis de Discriminante Lineal (LDA) y Análisis de Discriminante Cuadrático (QDA).
