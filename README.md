@@ -27,7 +27,7 @@ recalcular en los datos de test.
 <h2>PARTE 1</h2>
 Para el desarrollo de la presente investigación, en lo que corresponde a la primera parte, se utilizaron los datos de Wisconsin para la implementación de la Regresión Cuadrática y la Regresión Lineal.
 <img width="621" height="180" alt="image" src="https://github.com/user-attachments/assets/e3f2ad96-8dbd-4af1-85b7-812d3be61da5" /><br>
-Elección del porcentaje para training y test.
+Elección del porcentaje para training y test.<br>
 
 Al ejecutar el programa, se pregunta al usuario qué porcentaje de training y test se desea, para las presentes pruebas se utilizó el porcentaje de 80% de training y 20% de test.
 Mediante cálculos, se obtienen las vectores de clase 1 y 2 para los datos de training, así como sus índices:
@@ -152,7 +152,7 @@ Se aplica PCA a la matriz resultante de Training, para obtener los componentes p
 <img width="285" height="43" alt="image" src="https://github.com/user-attachments/assets/2d12c3f5-dc99-46d5-81ee-baa0c76578f9" /><br>
 Obtención de PCA a partir de la Matriz resultante de Training.
 
-También se multiplica el resultado de PCA por cada una de las matrices: de Training y de Test.
+También se multiplica el resultado de PCA por cada una de las matrices: de Training y de Test.<br>
 <img width="339" height="72" alt="image" src="https://github.com/user-attachments/assets/41cb0153-027e-4124-867d-143b6ff7b310" /><br>
 Producto de los Componentes Principales por la matriz resultante de Training y Test.
 
@@ -164,7 +164,7 @@ Después se calcula la probabilidad a priori de las clases 0 y 1, así como la o
 <img width="440" height="72" alt="image" src="https://github.com/user-attachments/assets/dda45d6a-2403-4474-860b-af70cc9d66af" /><br>
 Clasificación a priori de training.
 
-<img width="335" height="67" alt="image" src="https://github.com/user-attachments/assets/dd5163c6-b25b-4996-b4bd-61c0545bef80" />
+<img width="335" height="67" alt="image" src="https://github.com/user-attachments/assets/dd5163c6-b25b-4996-b4bd-61c0545bef80" /><br>
 Separación de los datos de training en clases 0 y 1.
 
 <img width="548" height="111" alt="image" src="https://github.com/user-attachments/assets/d858be50-b4a6-4af0-a039-f009108de600" /><br>
@@ -217,13 +217,13 @@ Al graficar los valores predichos contra los valores reales, se observa que coin
 Gráfica del reconocimiento de las imágenes.
 
 <h2>Conclusiones</h2>
-<p>Parte 1</p><br>
+<b>Parte 1</b><br>
 * Se ha comprobado que los mayores índices de aproximación del valor predicho con respecto al valor conocido de test, se dan cuando, para QDC regularizado, alpha vale 0; y para cuando LDC
 regularizado, gamma vale 1. De hecho, bajo estas condiciones, con alpha 0 y gamma 1, se obtiene el mismo porcentaje de desempeño.<br>
 * Los valores de la matriz de LDC regularizada, cuando gamma vale 0, son valores NaN, por los que al clasificarse, como LDC_c1_end y LDC_c2_end tienen el mismo valor, son clasificados como 1, esto es debido a la condición especificada: LDC_c1_end(v, m)>LDC_c2_end(v, m); lo mismo sucede con los valores de QDC y LDC (regularizados y no regularizados) que ni uno ni otro es mayor, sino que ambos son iguales.<br>
-* Se ha comprobado que, sin regularizar, la mayor tasa de reconocimiento se da con LDC, que coincide con el porcentaje que se da en alpha 0 y gamma 1, es decir, 97.3684 %.
+* Se ha comprobado que, sin regularizar, la mayor tasa de reconocimiento se da con LDC, que coincide con el porcentaje que se da en alpha 0 y gamma 1, es decir, 97.3684 %.<br>
 
-<p>Parte 2</p><br>
+<b>Parte 2</b><br>
 * Con PCA se han podido extraer los componentes principales de training, con los cuales se calculan las nuevas matrices para Training y Test. <br>
 * Se comprueba que con LDC, se logra una excelente tasa de reconocimiento para este caso en concreto.
 
