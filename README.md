@@ -65,7 +65,7 @@ Donde:<br>
 * class_priori_1 y class_priori_2, es la probabilidad de las clases a priori.<br>
 
 Además, se calcula LDC:<br>
-<img width="844" height="105" alt="image" src="https://github.com/user-attachments/assets/25d6639a-67a9-44e9-829e-10634cc93a1d" <br>
+<img width="844" height="105" alt="image" src="https://github.com/user-attachments/assets/25d6639a-67a9-44e9-829e-10634cc93a1d"> <br>
 Cálculo de LDC sin regularizar.
 
 Donde:<br>
